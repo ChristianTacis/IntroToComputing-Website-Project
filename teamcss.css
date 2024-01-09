@@ -1,0 +1,122 @@
+**{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:  0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #10006d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.info h1{
+    font-size: 80px;
+    margin-top: -285px;
+    margin-left: -180px;
+    width: 800px;
+    color: #e30b20;
+}
+.banner2{
+    width: 100%;
+    margin-top: -12%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner2 h1{
+    font-size: 50px;
+    color: #e30b20;
+}
+.banner2 p{
+    font-size: 20px;
+    color: #fff;
+}
+.banner3{
+    width: 100%;
+    margin-top: -180px;
+}
+.banner3 h1{
+    font-size: 50px;
+    color: #e30b20;
+}
+.banner3 p{
+    font-size: 20px;
+    color: #fff;
+}
+.teampic{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.teampic h1{
+    font-size: 50px;
+    color: #e30b20;
+}
+.teampic p{
+    font-size: 20px;
+    color: #665d5d;
+}
+.teampic-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.teampic-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.teampic-col p{
+    padding: 0;
+}
+.teampic-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
